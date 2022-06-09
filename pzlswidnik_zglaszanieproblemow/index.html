@@ -13,20 +13,23 @@
         <h1>Formularz zgłoszenia problemu produkcyjnego</h1>
     </div>
     <div class="form">
-        <form action="" method="POST">
+        <form action="https://formspree.io/f/myyovwag" method="POST">
+            <input id="reset" type="reset" value="Wyczyść formularz">
+            
             <label for="indeks">Indeks:</label>
-            <input type="text" name="indeks" id="indeks" placeholder="Indeks detalu"> <br>
+            <input type="text" name="indeks" id="indeks" placeholder="Indeks detalu"> 
 
             <label for="d-id">ID:</label>
-            <input type="text" name="id" id="d-id" placeholder="ID detalu"> <br>
+            <input type="text" name="id" id="d-id" placeholder="ID detalu"> 
+    
 
-            <label for="zglaszajacy">Zgłaszjący</label>
-            <input type="text" name="zglaszajacy" id="zglaszajacy" placeholder="Imię i nazwisko"><br>
+            <label for="zglaszajacy">Zgłaszjący:</label>
+            <input type="text" name="zglaszajacy" id="zglaszajacy" placeholder="Imię i nazwisko">
 
-            <label for="numer-kontrolny">Numer kontrolny zgłaszającego</label>
-            <input type="number" name="zglaszajacy-nr-kontrolny" id="numer-kontrolny" placeholder="Numer kontrolny"><br>
+            <label for="numer-kontrolny">Numer kontrolny zgłaszającego:</label>
+            <input type="number" name="zglaszajacy-nr-kontrolny" id="numer-kontrolny" placeholder="Numer kontrolny">
 
-            <label for="czestotliwosc">Częstotliwość występowania problemu:</label> <br>
+            <label for="czestotliwosc">Częstotliwość występowania problemu:</label> 
             <select name="czestotliwosc" id="czestotliwosc">
                 <option value="pierwszy-raz">Pierwszy raz</option>
                 <option value="sporadycznie">Sporadycznie</option>
@@ -35,9 +38,11 @@
             </select>
 
             <label for="opis">Opis problemu:</label>
-            <textarea name="opis" id="opis" cols="50" rows="30"></textarea>
+            <textarea name="opis"></textarea>
 
-            <input type="submit" value="Wyślij zgłoszenie">
+
+            <button type="submit">Wyślij zgłoszenie</button>
+            <input id="reset" type="reset" value="Wyczyść formularz">
         </form>
         <div class="inst">
             <h2>Instrukcja wypełnienia formularza:</h2>
