@@ -29,6 +29,12 @@
             <label for="numer-kontrolny">Numer kontrolny zgłaszającego:</label>
             <input type="number" name="zglaszajacy-nr-kontrolny" id="numer-kontrolny" placeholder="Numer kontrolny">
 
+            <label for="wydzial">Wydział produkcyjny:</label> 
+            <select name="wydzial" id="wydzial">
+                <option value="W-360">W-360</option>
+                <option value="W-370">W-370</option>
+            </select>
+
             <label for="czestotliwosc">Częstotliwość występowania problemu:</label> 
             <select name="czestotliwosc" id="czestotliwosc">
                 <option value="pierwszy-raz">Pierwszy raz</option>
@@ -47,17 +53,19 @@
         <div class="inst">
             <h2>Instrukcja wypełnienia formularza:</h2>
             <ol>
-                <li>Indeks - wpisujemy indek detalu</li>
-                <li>ID - wpisujemy ID detalu</li>
-                <li>Zgłaszjący - wpisujemy imię i nazwisko zgłaszacego</li>
-                <li>Numer kontrolny - wpisujemy numer kontrolny zgłaszacego</li>
-                <li>Częstotliwość - jeżeli problem nie występował wczeniej wybieramy opcje pierwsz raz, jeżel porblem występuję sporadycznie co któryś detal wybieramy opcje sporadycznie, jeżel problem powtarza się cały czas wybieramy opcję ciągle, jeżeli zaś problem nie dotyczy powtarzalności a np. nie doszacowania czasu na wykonanie operacji itp. wybieramy opcje inne.</li>
-                <li>Opis problemu - szczegółowy opis zaistniałego problemu.Proszę opisywać problem wyczerpująco</li>
-                <li>Jeżeli formularz został wypełniony proszę go jescze raz sprawdzić i kliknąć przycisk wyślij zgłoszneie</li>
+                <li>Indeks - wpisujemy indeks detalu.</li>
+                <li>ID - wpisujemy ID detalu.</li>
+                <li>Zgłaszający - wpisujemy imię i nazwisko zgłaszającego.</li>
+                <li>Numer kontrolny - wpisujemy numer kontrolny zgłaszającego.</li>
+                <li>Częstotliwość - jeżeli problem nie występował wcześniej wybieramy opcje pierwszy raz, jeżel problem występuję sporadycznie co któryś detal wybieramy opcje sporadycznie, jeżeli problem powtarza się cały czas wybieramy opcję ciągle, jeżeli zaś problem nie dotyczy powtarzalności a np. nie doszacowania czasu na wykonanie operacji itp. wybieramy opcje inne.</li>
+                <li>Opis problemu - szczegółowy opis zaistniałego problemu. Proszę opisywać problem wyczerpująco.</li>
+                <li>Jeżeli formularz został wypełniony proszę go jeszcze raz sprawdzić i kliknąć przycisk wyślij zgłoszenie.</li>
+                <li>Przycisk wyczyść formularz służy do czyszczenia pól formularza.</li>
             </ol>
         </div>
     </div>
     <footer>
+        <img src="src/nowelogo.png" alt="Creator logo">
         <p>Created by Łukasz Woźniak for Leonardo PZL-ŚWIDNIK</p>
     </footer>
 </body>
