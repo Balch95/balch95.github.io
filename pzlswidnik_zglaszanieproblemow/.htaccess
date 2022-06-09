@@ -1,7 +1,0 @@
-AuthType Basic
-
-AuthName "Password Protected Area"
-
-AuthUserFile balch95.github.io/pzlswidnik_zglaszanieproblemow/.htpasswd
-
-Require valid-user
